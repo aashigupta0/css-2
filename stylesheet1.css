@@ -1,0 +1,44 @@
+
+html{ align:center;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+    width: 1000px;
+height:200px;}
+    body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+  }
+  .original {   
+    font-size: 20px;}
+
+    span {
+        font-size: 1.5rem;
+      }
+      .vh{
+        width: 50vw;
+        height:5vh;
+      }
+   div > p{background-color: rgb(196, 74, 137);}
+   div~p{background-color: rgb(180, 180, 210);}
+   div+p{background-color: blueviolet;}
+   .transition{
+    background-color: palevioletred ;
+   
+    border-color: black;
+    width: 90px;
+    height: 90px;
+    color: white ;
+    display: block;
+    align:center;
+    font-size: 80%;
+    text-align: center;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;}
+    .transition:hover{  background-color: #ca0d0d;
+       rotate: 90deg;
+        width: 200px;
+        height: 100px;
+    transform: skewX(10deg);}
+   
+
+   
